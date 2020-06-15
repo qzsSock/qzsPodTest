@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 @property (nonatomic,strong) NSString*nnn;
+@property (nonatomic,strong) NSString*hh;
 @end
 
 @implementation ViewController
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    NSLog(@"22222");
+    NSLog(@"2323232");
 }
 
 
