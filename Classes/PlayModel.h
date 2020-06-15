@@ -12,6 +12,7 @@
 
 
 @property (nonatomic,strong) NSString*title;
+@property (nonatomic,strong) NSString*title1;
 
 @property (nonatomic,strong) NSURL*videoURL;
 
