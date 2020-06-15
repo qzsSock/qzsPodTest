@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     [application delegate];
+
+    [AppDelegate class];
+
     return YES;
 }
 

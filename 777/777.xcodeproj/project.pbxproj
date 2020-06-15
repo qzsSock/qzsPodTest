@@ -14,7 +14,11 @@
 		061A76772497AE260043903B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061A76762497AE260043903B /* Assets.xcassets */; };
 		061A767A2497AE260043903B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061A76782497AE260043903B /* LaunchScreen.storyboard */; };
 		061A767D2497AE260043903B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A767C2497AE260043903B /* main.m */; };
+
 		061A76852497AF300043903B /* testTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A76842497AF300043903B /* testTableViewCell.m */; };
+
+		061A76882497B0300043903B /* tttTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A76872497B0300043903B /* tttTableViewCell.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +34,13 @@
 		061A76792497AE260043903B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061A767B2497AE260043903B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		061A767C2497AE260043903B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+
 		061A76832497AF300043903B /* testTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTableViewCell.h; sourceTree = "<group>"; };
 		061A76842497AF300043903B /* testTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewCell.m; sourceTree = "<group>"; };
+
+		061A76862497B0300043903B /* tttTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tttTableViewCell.h; sourceTree = "<group>"; };
+		061A76872497B0300043903B /* tttTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tttTableViewCell.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +84,13 @@
 				061A76782497AE260043903B /* LaunchScreen.storyboard */,
 				061A767B2497AE260043903B /* Info.plist */,
 				061A767C2497AE260043903B /* main.m */,
+
 				061A76832497AF300043903B /* testTableViewCell.h */,
 				061A76842497AF300043903B /* testTableViewCell.m */,
+
+				061A76862497B0300043903B /* tttTableViewCell.h */,
+				061A76872497B0300043903B /* tttTableViewCell.m */,
+
 			);
 			path = 777;
 			sourceTree = "<group>";
@@ -152,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				061A76722497AE210043903B /* ViewController.m in Sources */,
+				061A76882497B0300043903B /* tttTableViewCell.m in Sources */,
 				061A766C2497AE210043903B /* AppDelegate.m in Sources */,
 				061A76852497AF300043903B /* testTableViewCell.m in Sources */,
 				061A767D2497AE260043903B /* main.m in Sources */,
