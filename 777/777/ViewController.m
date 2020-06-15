@@ -9,14 +9,20 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic,strong) NSString*three;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"eee");
+    NSLog(@"22333");
+      NSLog(@"22333");
+      NSLog(@"22333");
+      NSLog(@"22333");
+      NSLog(@"22333");
+      NSLog(@"22333");
+      NSLog(@"22333");
 }
 
 
