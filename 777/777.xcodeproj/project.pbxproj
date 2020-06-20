@@ -16,7 +16,11 @@
 		061A767D2497AE260043903B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A767C2497AE260043903B /* main.m */; };
 		061A76852497AF300043903B /* testTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A76842497AF300043903B /* testTableViewCell.m */; };
 		061A76882497B0300043903B /* tttTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A76872497B0300043903B /* tttTableViewCell.m */; };
+
 		061A768B2497B35D0043903B /* CommentTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A768A2497B35D0043903B /* CommentTextView.m */; };
+
+		066D72D9249DFF3800C7BE80 /* testDeve.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D72D8249DFF3800C7BE80 /* testDeve.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +40,13 @@
 		061A76842497AF300043903B /* testTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewCell.m; sourceTree = "<group>"; };
 		061A76862497B0300043903B /* tttTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tttTableViewCell.h; sourceTree = "<group>"; };
 		061A76872497B0300043903B /* tttTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tttTableViewCell.m; sourceTree = "<group>"; };
+
 		061A76892497B35C0043903B /* CommentTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTextView.h; sourceTree = "<group>"; };
 		061A768A2497B35D0043903B /* CommentTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTextView.m; sourceTree = "<group>"; };
+
+		066D72D7249DFF3800C7BE80 /* testDeve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testDeve.h; sourceTree = "<group>"; };
+		066D72D8249DFF3800C7BE80 /* testDeve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDeve.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,11 @@
 				061A76842497AF300043903B /* testTableViewCell.m */,
 				061A76862497B0300043903B /* tttTableViewCell.h */,
 				061A76872497B0300043903B /* tttTableViewCell.m */,
+
+
+				066D72D7249DFF3800C7BE80 /* testDeve.h */,
+				066D72D8249DFF3800C7BE80 /* testDeve.m */,
+
 			);
 			path = 777;
 			sourceTree = "<group>";
@@ -166,7 +180,11 @@
 				061A766C2497AE210043903B /* AppDelegate.m in Sources */,
 				061A76852497AF300043903B /* testTableViewCell.m in Sources */,
 				061A767D2497AE260043903B /* main.m in Sources */,
+
 				061A768B2497B35D0043903B /* CommentTextView.m in Sources */,
+
+				066D72D9249DFF3800C7BE80 /* testDeve.m in Sources */,
+
 				061A766F2497AE210043903B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
