@@ -20,6 +20,7 @@
 		066D72D9249DFF3800C7BE80 /* testDeve.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D72D8249DFF3800C7BE80 /* testDeve.m */; };
 		066D72DD249E012B00C7BE80 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D72DC249E012B00C7BE80 /* HomeViewController.m */; };
 		066D72E0249E013A00C7BE80 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D72DF249E013A00C7BE80 /* HomeTableViewCell.m */; };
+		066D72E4249E051000C7BE80 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D72E3249E051000C7BE80 /* MineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		066D72DC249E012B00C7BE80 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		066D72DE249E013A00C7BE80 /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
 		066D72DF249E013A00C7BE80 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		066D72E2249E051000C7BE80 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		066D72E3249E051000C7BE80 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		061A76692497AE210043903B /* 777 */ = {
 			isa = PBXGroup;
 			children = (
+				066D72E1249E04FA00C7BE80 /* 0909 */,
 				066D72DA249E010E00C7BE80 /* 0808 */,
 				061A76892497B35C0043903B /* CommentTextView.h */,
 				061A768A2497B35D0043903B /* CommentTextView.m */,
@@ -112,6 +116,15 @@
 				066D72DF249E013A00C7BE80 /* HomeTableViewCell.m */,
 			);
 			path = 0808;
+			sourceTree = "<group>";
+		};
+		066D72E1249E04FA00C7BE80 /* 0909 */ = {
+			isa = PBXGroup;
+			children = (
+				066D72E2249E051000C7BE80 /* MineViewController.h */,
+				066D72E3249E051000C7BE80 /* MineViewController.m */,
+			);
+			path = 0909;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +202,7 @@
 				066D72E0249E013A00C7BE80 /* HomeTableViewCell.m in Sources */,
 				061A766C2497AE210043903B /* AppDelegate.m in Sources */,
 				061A76852497AF300043903B /* testTableViewCell.m in Sources */,
+				066D72E4249E051000C7BE80 /* MineViewController.m in Sources */,
 				061A767D2497AE260043903B /* main.m in Sources */,
 				066D72DD249E012B00C7BE80 /* HomeViewController.m in Sources */,
 				061A768B2497B35D0043903B /* CommentTextView.m in Sources */,
