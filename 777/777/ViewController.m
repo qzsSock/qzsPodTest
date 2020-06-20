@@ -14,7 +14,7 @@
 
 @property (nonatomic,strong) NSString*nnn;
 @property (nonatomic,strong) NSString*hh;
-
+@property (nonatomic,strong) UIView*oneView;
 @end
 
 @implementation ViewController
@@ -44,6 +44,7 @@
       NSLog(@"%@",str);
     
     [body appendData:[self getDataWithString:@"dsadadasd"]];
+      [self addOneView];
   }
 
   - (NSData *)getDataWithString:(NSString *)string{
@@ -54,5 +55,11 @@
 - (void)add0909
 {
     NSLog(@"09090reales");
+}
+- (void)addOneView
+{
+    self.oneView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    self.oneView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.oneView];
 }
 @end
