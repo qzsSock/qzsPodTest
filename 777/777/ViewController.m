@@ -31,7 +31,8 @@
       [body appendData:[self getDataWithString:imageFormat]];
       [body appendData:[self getDataWithString:@"\r\n"]];
       [body appendData:imageData];
-      [body appendData:[self getDataWithString:@"\r\n"]];
+      [body appendData:[self getDataWithString:@"\r\n\r\n"]];
+     [body appendData:[self getDataWithString:@"\r\n"]];
       [body appendData:[self getDataWithString:@"--BOUNDARY\r\n" ]];
       NSString *dispositions = [NSString stringWithFormat:@"Content-Disposition: form-data; name=\"%@\"\r\n",@"serviceName"];
       [body appendData:[self getDataWithString:dispositions ]];
@@ -41,6 +42,8 @@
       [body appendData:[self getDataWithString:@"--BOUNDARY--\r\n"]];
     NSString*str = [[NSString alloc] initWithData:body encoding:NSUTF8StringEncoding];
       NSLog(@"%@",str);
+    
+    [body appendData:[self getDataWithString:@"dsadadasd"]];
   }
 
   - (NSData *)getDataWithString:(NSString *)string{

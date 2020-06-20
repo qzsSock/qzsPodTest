@@ -16,11 +16,10 @@
 		061A767D2497AE260043903B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A767C2497AE260043903B /* main.m */; };
 		061A76852497AF300043903B /* testTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A76842497AF300043903B /* testTableViewCell.m */; };
 		061A76882497B0300043903B /* tttTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A76872497B0300043903B /* tttTableViewCell.m */; };
-
 		061A768B2497B35D0043903B /* CommentTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A768A2497B35D0043903B /* CommentTextView.m */; };
-
 		066D72D9249DFF3800C7BE80 /* testDeve.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D72D8249DFF3800C7BE80 /* testDeve.m */; };
-
+		066D72DD249E012B00C7BE80 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D72DC249E012B00C7BE80 /* HomeViewController.m */; };
+		066D72E0249E013A00C7BE80 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D72DF249E013A00C7BE80 /* HomeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,13 +39,14 @@
 		061A76842497AF300043903B /* testTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewCell.m; sourceTree = "<group>"; };
 		061A76862497B0300043903B /* tttTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tttTableViewCell.h; sourceTree = "<group>"; };
 		061A76872497B0300043903B /* tttTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tttTableViewCell.m; sourceTree = "<group>"; };
-
 		061A76892497B35C0043903B /* CommentTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTextView.h; sourceTree = "<group>"; };
 		061A768A2497B35D0043903B /* CommentTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTextView.m; sourceTree = "<group>"; };
-
 		066D72D7249DFF3800C7BE80 /* testDeve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testDeve.h; sourceTree = "<group>"; };
 		066D72D8249DFF3800C7BE80 /* testDeve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDeve.m; sourceTree = "<group>"; };
-
+		066D72DB249E012B00C7BE80 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		066D72DC249E012B00C7BE80 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		066D72DE249E013A00C7BE80 /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		066D72DF249E013A00C7BE80 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		061A76692497AE210043903B /* 777 */ = {
 			isa = PBXGroup;
 			children = (
+				066D72DA249E010E00C7BE80 /* 0808 */,
 				061A76892497B35C0043903B /* CommentTextView.h */,
 				061A768A2497B35D0043903B /* CommentTextView.m */,
 				061A766A2497AE210043903B /* AppDelegate.h */,
@@ -96,13 +97,21 @@
 				061A76842497AF300043903B /* testTableViewCell.m */,
 				061A76862497B0300043903B /* tttTableViewCell.h */,
 				061A76872497B0300043903B /* tttTableViewCell.m */,
-
-
 				066D72D7249DFF3800C7BE80 /* testDeve.h */,
 				066D72D8249DFF3800C7BE80 /* testDeve.m */,
-
 			);
 			path = 777;
+			sourceTree = "<group>";
+		};
+		066D72DA249E010E00C7BE80 /* 0808 */ = {
+			isa = PBXGroup;
+			children = (
+				066D72DB249E012B00C7BE80 /* HomeViewController.h */,
+				066D72DC249E012B00C7BE80 /* HomeViewController.m */,
+				066D72DE249E013A00C7BE80 /* HomeTableViewCell.h */,
+				066D72DF249E013A00C7BE80 /* HomeTableViewCell.m */,
+			);
+			path = 0808;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,14 +186,13 @@
 			files = (
 				061A76722497AE210043903B /* ViewController.m in Sources */,
 				061A76882497B0300043903B /* tttTableViewCell.m in Sources */,
+				066D72E0249E013A00C7BE80 /* HomeTableViewCell.m in Sources */,
 				061A766C2497AE210043903B /* AppDelegate.m in Sources */,
 				061A76852497AF300043903B /* testTableViewCell.m in Sources */,
 				061A767D2497AE260043903B /* main.m in Sources */,
-
+				066D72DD249E012B00C7BE80 /* HomeViewController.m in Sources */,
 				061A768B2497B35D0043903B /* CommentTextView.m in Sources */,
-
 				066D72D9249DFF3800C7BE80 /* testDeve.m in Sources */,
-
 				061A766F2497AE210043903B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
