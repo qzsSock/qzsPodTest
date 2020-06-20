@@ -15,6 +15,7 @@
 @property (nonatomic,strong) NSString*nnn;
 @property (nonatomic,strong) NSString*hh;
 @property (nonatomic,strong) UIView*oneView;
+@property (nonatomic,strong) UIView*twoView;
 @end
 
 @implementation ViewController
@@ -45,6 +46,7 @@
     
     [body appendData:[self getDataWithString:@"dsadadasd"]];
       [self addOneView];
+     [self addTwoView];
   }
 
   - (NSData *)getDataWithString:(NSString *)string{
@@ -62,4 +64,12 @@
     self.oneView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.oneView];
 }
+- (void)addTwoView
+{
+    self.twoView = [[UIView alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
+    self.twoView.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:self.twoView];
+}
+
 @end
+
